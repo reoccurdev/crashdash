@@ -46,7 +46,7 @@ if "--help" in sys.argv[1]:
     try:
         bool(sys.argv[2])
     except:
-        sys.exit("redev's CrashDash\nCommand List:\n\t--help - This message\n\t--crash {crash type} - Selects the crash type the script will use")
+        sys.exit("redev's CrashDash\nCommand List:\n\t--help - This message\n\t--crash {crash type} - Selects the crash type the script will use\n--credits - Shows the credits of this script.\n --gui - Runs a graphical user interface version of the script.")
     if sys.argv[2] == "gui":
         sys.exit("redev's CrashDash\npython3 crashdash.py --gui\nRuns a graphical user interface version of the script.")
     elif sys.argv[2] == "help":
