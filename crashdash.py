@@ -94,7 +94,7 @@ elif "--gui" in sys.argv[1]:
         button3.pack(side=tk.RIGHT)
         button4.pack(side=tk.RIGHT)
         root.title("redev's CrashDash")
-        photo = tk.PhotoImage(file = "icon.png")
+        photo = tk.PhotoImage(file = ".icon.png")
         root.iconphoto(False, photo)
         root.mainloop()
     except:
