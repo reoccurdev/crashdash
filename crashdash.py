@@ -69,14 +69,14 @@ elif "--gui" in sys.argv[1]:
             fg="red",
             command=crash1)
         button2 = tk.Button(
-            text="Direct Kernel Crash (Linux)",
+            text="Direct Kernel Crash",
             width=25,
             height=5,
             bg="black",
             fg="red",
             command=crash2)
         button3 = tk.Button(
-            text="Kernel Crash (Kernel Module) (Linux)",
+            text="Kernel Crash (Kernel Module)",
             width=25,
             height=5,
             bg="black",
